@@ -1,0 +1,53 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 900px 900px;
+    grid-template-rows: 250px 100px 500px 100px;
+    grid-template-areas: 
+    'ban ban '
+    'enla enla'
+    'cont1 cont2'
+    'pie pie'
+    ;
+}
+.ban{
+   grid-area: ban;
+
+ 
+}
+.enlaces{
+    grid-area: enla;
+    background-color:aliceblue;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    
+   
+}
+.contenido{
+    grid-area: cont1;
+    background-color:greenyellow;
+    color: darkred;
+    align-content: center;
+    text-align: center;
+}
+.contenido2{
+    grid-area: cont2;
+    background-color:crimson;
+    color: cornflowerblue;
+}
+footer{
+    grid-area: pie;
+    background-color:aqua;
+    color: darkcyan;
+}
+img{
+    height: 900px;
+}
+a{
+    text-decoration: none;
+}
+#img2{
+    height: 600px;
+    width: 300px;
+    
+}

@@ -1,0 +1,54 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1000px 1000px;
+    grid-template-rows: 250px 800px 100px;
+    grid-template-areas: 
+    'baner baner '
+    'fc pq '
+    'pie pie '
+    ;
+}
+.bn{
+    grid-area: baner;
+   
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fc{
+    grid-area: fc;
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.pq{
+    grid-area: pq;
+    background-color:lightblue ;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+
+}
+#p{
+    text-align:left;
+    font-size: 20px;
+}
+.pie{
+    grid-area: pie;
+    background-color:lightcoral;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+img{
+height: 1000px;
+width:px ;
+}
